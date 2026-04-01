@@ -13,7 +13,7 @@
 # Panduan Singkat tiap role
 # 🚀 Aturan Umum
 - Hati-hati jangan mengubah bagian role lain
-- **Jangan lupa gunakan branch dev**
+- **Jangan lupa gunakan branch dev** (pull dan push dilakukan di branch dev)
 - Kalo bingung tanya aja gaes
 
 ## 🧠 Narrative & Game Design
