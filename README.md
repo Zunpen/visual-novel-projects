@@ -1,3 +1,6 @@
+# WARNING!!!!
+Pastikan untuk pengerjaan dilakukan pada branch **dev** bukan **main** atau **master** (gunakan "git status" pada CLI atau cari dropdown bertuliskan branch jika mengupload manual)
+
 # Visual Novel Project
 Repo project membuat visual novel untuk matkul KWN
 
