@@ -1,12 +1,14 @@
 <!--
 Ini contoh aja jangan lupa dibikin 2 buat main dan trial game
 -->
-# Concept
+# Characters
 
-Genre: Mystery
+## Protagonist
+- Quiet
+- Observant
 
-Theme: Uncanny Environment
+## Friend A?
+- Smart but suspicious
 
-Core Idea:
-Player investigates why everything becomes weird.
-Choices affect who survives.
+## Friend B?
+- Friendly but hiding something
