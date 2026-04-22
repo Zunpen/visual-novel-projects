@@ -34,4 +34,4 @@ Raka hidup di depan layar monitor. Dia memandang dunia melalui angka dan statist
 -Bro ini seperti menyembunyikan sesuatu
 
 ## Deskripsi singkat Nisa
-Mahasiswa hukum yang idealis. Nisa memahami celah hukum pemerintah luar-dalam. Dia menyeimbangkan sifat impulsif Alya dan memastikan setiap langkah kelompok mereka punya dasar hukum yang kuat agar tidak mudah dikriminalisasi.
+Mahasiswa hukum yang idealis. Nisa memahami celah hukum pemerintah luar dalam. Dia menyeimbangkan sifat impulsif Alya dan memastikan setiap langkah kelompok mereka punya dasar hukum yang kuat agar tidak mudah dikriminalisasi.
