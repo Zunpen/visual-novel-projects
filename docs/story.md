@@ -76,7 +76,7 @@ Raka: "Tinggal 90%! Unduhan algoritma Seleksi Teladan butuh dua menit lagi untuk
 
 Nisa: "Waktu kalian habis. Menyerahlah. Prosedur penahanan akan lebih lunak jika kalian tidak melawan."
 
-Alya: (Mendongak, menatap Nisa dengan ngeri) "Nisa... apa yang... kau yang membawa mereka ke sini?!"
+Alya: (kaget , menatap Nisa dengan ngeri) "Nisa... apa yang... kau yang membawa mereka ke sini?!"
 
 Nisa: "Aku menyelamatkan masa depan, Alya. Bumi, ikutlah denganku sekarang. Mereka memiliki perintah untuk tidak menembak kita berdua jika kau menyerahkan hardisk itu padaku."
 
