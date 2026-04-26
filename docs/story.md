@@ -4,20 +4,33 @@
 Ini akan diceritakan dari suudut pandang orang pertama cuy, jadi dari tokoh utama nya. Biar kita makin kerasa ikut kedalam cerita.
 
 Bumi (Monolog Inner): (Dunia ini sedang membusuk. Udara di luar lebih pantas disebut racun. Di atas meja ini, di bawah lampu bohlam yang berkedip mati-nyala, hanya tersisa satu tabung penawar (antidote).)
+
 [Alya muncul. Posturnya membungkuk. Ia terbatuk hebat, memegang dadanya. Ada bercak merah di sudut bibirnya.]
+
 Alya: (Napas tersengal, bersandar di meja) "Bumi... protes di Sektor 4 tadi... mereka menembakkan gas saraf. Warga... mereka butuh suplai kita."
+
 [Raka muncul. Duduk di kursi roda, matanya merah menatap tiga monitor sekaligus. Tangannya gemetar hebat di atas keyboard.]
+
 Raka: "Jangan gila, Al! Kalau kau berikan tabung terakhir itu ke luar, kau yang mati malam ini! Lagipula... (menggigit bibir, menahan sakit)... filter udara ruangan kita mau jebol. Aku butuh fokus untuk meretas sistem ventilasi pusat, tapi tanganku tidak bisa berhenti gemetar karena racun ini."
+
 [Nisa berjalan masuk dari sudut ruangan yang gelap. Wajahnya datar, tangannya bersedekap.]
+
 Nisa: "Secara statistik, Alya, tindakanmu turun ke jalan hari ini murni bunuh diri. Bumi, tabung penawar itu harapan terakhir kita. Berikan pada Raka. Jika kita mati tercekik di rubanah ini, revolusi yang diteriakkan Alya tidak akan pernah terjadi."
+
 Alya: (Menatap Nisa tajam) "Nyawa manusia bukan sekadar aset, Nisa! Jika kita membiarkan mereka mati malam ini, kita tidak ada bedanya dengan pemerintah biadab itu!!!!!   ."
+
 Bumi (Monolog Inner): (Alya menatapku dengan mata memohon, meski paru-parunya hancur. Raka menatap layarnya, tapi keringat dingin membanjiri pelipisnya. Dan Nisa... dia hanya menatap tabung itu dengan perhitungan matematis. Aku harus memilih.)
 
 
+
 [SYSTEM PROMPT: WAKTU MENIPIS. SIAPA YANG KAU SELAMATKAN?]
+
 •	[PILIHAN 1] (Ambil tabung, suntikkan ke lengan Alya) "Kita tidak akan mengorbankan nyawa demi angka."
+
 •	[PILIHAN 2] (Serahkan tabung pada Raka) "Selesaikan retasanmu, Raka. Kita butuh jalan keluar."
+
 •	[PILIHAN 3] (Simpan tabung ke dalam saku) "Tidak ada yang memakainya. Kita simpan untuk kondisi paling kritis."
+
 
 ## [BABAK 2: MISTERI YANG TERUNGKAP]
 [Latar: Lorong sempit di luar ruang server utama. Pencahayaan sangat minim.] [BGM: Suara drone patroli terdengar samar dari kejauhan. Musik berubah menjadi misterius/tegang.]
