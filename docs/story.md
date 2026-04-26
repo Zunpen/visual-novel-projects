@@ -42,7 +42,7 @@ Bumi (Monolog Inner): (Setelah ketegangan tadi, Nisa meminta izin untuk memantau
 [Nisa membelakangi layar. Ia terlihat sedang berbicara pelan ke sebuah alat komunikasi kecil di tangannya, bukan radio standard kelompok.]
 Nisa: (Berbisik cepat) "...Ya. Titik koordinatnya di blok C. Pastikan unit ekstraksi hanya menargetkan ruang utama. Jangan sentuh lorong barat... Aku akan memastikan datanya tertahan."
 
-Bumi (Monolog Inner): (Unit ekstraksi? Koordinat? Darahku berdesir. Nisa baru saja memutuskan jalur komunikasi. Dia memasukkan alat itu ke dalam tas hitamnya yang diletakkan di atas tong kosong, lalu berjalan sebentar ke ujung lorong untuk mengecek jendela.) aku kaget… tanpa sadar menjatuhkan penawar itu dari tangan ku(Jika memilih menyimpan penawar).
+Bumi (Monolog Inner): (Unit ekstraksi? Koordinat?. Nisa baru saja memutuskan jalur komunikasi. Dia memasukkan alat itu ke dalam tas hitamnya yang diletakkan di atas tong kosong, lalu berjalan sebentar ke ujung lorong untuk mengecek jendela.) aku kaget… tanpa sadar menjatuhkan penawar itu dari tangan ku(Jika memilih menyimpan penawar).
 
 [PILIHAN AKSI INVESTIGASI - WAKTU TERBATAS 5 DETIK]
 •	[PILIHAN 1] (Geledah tas Nisa dengan cepat).
