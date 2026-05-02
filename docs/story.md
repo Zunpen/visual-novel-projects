@@ -2,7 +2,9 @@
 [Latar: Rubanah remang-remang di Apartemen Pinewood. Layar monitor berkedip hijau. Suara kipas server yang berisik dan rintik hujan asam di luar.] [BGM: Denting piano tempo lambat, diselingi suara static radio]
 
 Ini akan diceritakan dari suudut pandang orang pertama cuy, jadi dari tokoh utama nya. Biar kita makin kerasa ikut kedalam cerita.
-
+Mungkin bisa diiringi scene yang sesuai dgn narasi
+Bumi (Monolog inner): Pemerintah kita telah menghancurkan negara kita sendiri... HAM yang dulu mereka perjuangkan itu, kini telah mereka lupakan... Seleksi Teladan... mengharuskan kami untuk diseleksi agar dapat bekerja untuk pemerintah demi menjaga Indonesia tetap berjalan. Tetapi, Upah kami hanya 1 botol oksigen per minggu yang bahkan hanya cukup 1 hari.
+ganti latar be basement
 Bumi (Monolog Inner): (Dunia ini sedang membusuk. Udara di luar lebih pantas disebut racun. Di atas meja ini, di bawah lampu bohlam yang berkedip mati-nyala, hanya tersisa satu tabung penawar (antidote).)
 
 [Alya muncul. Posturnya membungkuk. Ia terbatuk hebat, memegang dadanya. Ada bercak merah di sudut bibirnya.]
