@@ -2,7 +2,7 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
-
+"""
 define e = Character("Eileen")
 
 
@@ -29,5 +29,13 @@ label start:
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
     # This ends the game.
+
+    return
+"""
+label start:
+    #Pembagian chapter
+    call chapter1
+    call chapter2
+    call chapter3
 
     return
