@@ -9,19 +9,19 @@ Bumi (Monolog Inner): (Dunia ini sedang membusuk. Udara di luar lebih pantas dis
 
 [Alya muncul. Posturnya membungkuk. Ia terbatuk hebat, memegang dadanya. Ada bercak merah di sudut bibirnya.]
 
-Alya: (Napas tersengal, bersandar di meja) "Bumi... protes di Sektor 4 tadi... mereka menembakkan gas saraf. Warga... mereka butuh suplai kita."
+Alya: (Napas tersengal, bersandar di meja) "Bumi...tadi ada protes di Sektor 4... mereka menembakkan gas saraf. Warga..., kita harus bantu merekaa..... mereka butuh suplai kita, Bumi..."
 
 [Raka muncul. Duduk di kursi roda, matanya merah menatap tiga monitor sekaligus. Tangannya gemetar hebat di atas keyboard.]
 
-Raka: "Jangan gila, Al! Kalau kau berikan tabung terakhir itu ke luar, kau yang mati malam ini! Lagipula... (menggigit bibir, menahan sakit)... filter udara ruangan kita mau jebol. Aku butuh fokus untuk meretas sistem ventilasi pusat, tapi tanganku tidak bisa berhenti gemetar karena racun ini."
+Raka: "Jangan gila woiii, Al! Kalau lu berikan tabung terakhir itu ke luar, lu yang mati lah malam ini!, gimana sih... Lagipula... (menggigit bibir, menahan sakit)... filter udara ruangan kita mau jebol.Gweh juga butuh fokus untuk meretas sistem ventilasi pusat itu guys, tapi tangan gua tidak bisa berhenti gemetar karena racun ini."
 
 [Nisa berjalan masuk dari sudut ruangan yang gelap. Wajahnya datar, tangannya bersedekap.]
 
 Nisa: "Secara statistik, Alya, tindakanmu turun ke jalan hari ini murni bunuh diri. Bumi, tabung penawar itu harapan terakhir kita. Berikan pada Raka. Jika kita mati tercekik di rubanah ini, revolusi yang diteriakkan Alya tidak akan pernah terjadi."
 
-Alya: (Menatap Nisa tajam) "Nyawa manusia bukan sekadar aset, Nisa! Jika kita membiarkan mereka mati malam ini, kita tidak ada bedanya dengan pemerintah biadab itu!!!!!   ."
+Alya: (Menatap Nisa tajam) "Nyawa manusia bukan sekadar aset LHOOOO, Nisa! Jika kita membiarkan mereka mati malam ini, kita tidak ada bedanya dengan pemerintah biadab itu!!!!!   ."
 
-Bumi (Monolog Inner): (Alya menatapku dengan mata memohon, meski paru-parunya hancur. Raka menatap layarnya, tapi keringat dingin membanjiri pelipisnya. Dan Nisa... dia hanya menatap tabung itu dengan perhitungan matematis. Aku harus memilih.)
+Bumi (Monolog Inner): (Alya menatapku dengan mata memohon, meski paru-parunya hancur. Raka menatap layarnya, tapi keringat dingin membanjiri pelipisnya, dia tetap bersikap seolah ini semua tidak apa- apa padahal dia sedang menderita. Dan Nisa... dia hanya menatap tabung itu dengan perhitungan matematis. Aku harus memilih.)
 
 
 
@@ -67,7 +67,7 @@ Nisa: (Tersentak pelan, tapi langsung kembali tenang) "Bumi. Mengagetkan saja. A
 [BABAK 3: TITIK AMBANG (THE RAID)] (Hanya jika memilih 1 dan 3)
 [Latar: Ruang server utama. Tiba-tiba lampu merah darurat menyala berputar-putar. Alarm melolong memekakkan telinga.] [BGM: Musik aksi cepat, suara dentuman keras, kaca pecah.]
 
-Raka: (Berteriak panik) "Sial! Sial! Mereka memotong jalur kita dari luar! Enkripsi lapisan ketiga jebol! Pasukan bersenjata ada di lobi atas, dan akan turun ke woiiii!"
+Raka: (Berteriak panik) "Sial! Sial! Mereka memotong jalur kita dari luar guysss, gimana iniii???!!!!, mati kita wokkk! Enkripsi lapisan ketiga udah jebol! Pasukan bersenjata ada di lobi atas, dan akan turun ke siniii, tolong tahan mereka selama mungkinnnn woiiii!"
 [Suara tembakan terdengar dari tangga. Gas air mata mulai merembes masuk dari ventilasi. Layar menjadi agak kabur (efek asap).]
 
 Alya: (Terbatuk parah, jatuh berlutut) "Bumi... uhuk! Datanya... apakah sudah..."
@@ -76,7 +76,7 @@ Raka: "Tinggal 90%! Unduhan algoritma Seleksi Teladan butuh dua menit lagi untuk
 
 [Nisa muncul dari lorong. Ia tidak terlihat panik, melainkan merapikan kerah bajunya.]
 
-Nisa: "Waktu kalian habis. Menyerahlah. Prosedur penahanan akan lebih lunak jika kalian tidak melawan."
+Nisa: "Waktu kalian dah habis. Tolong menyerahlah. Prosedur penahanan akan lebih lunak jika kalian tidak melawan."
 
 Alya: (kaget , menatap Nisa dengan ngeri) "Nisa... apa yang... kau yang membawa mereka ke sini?!"
 
@@ -84,9 +84,9 @@ Nisa: "Aku menyelamatkan masa depan, Alya. Bumi, ikutlah denganku sekarang. Mere
 
 [Suara pintu besi utama didobrak. Bayangan pasukan keamanan dengan masker gas mulai terlihat.]
 
-Raka: (Mencabut hardisk, melemparnya ke arah Bumi) "BAWA DATANYA, BUMI! LARI LEWAT JALUR GORONG-GORONG!"
+Raka: (Mencabut hardisk, melemparnya ke arah Bumi) "BAWA DATANYA WOIIII, BUMI! MENDING LU LARI LEWAT JALUR GORONG-GORONG!"
 
-Alya: (Mencoba berdiri tapi kembali jatuh) "Tinggalkan aku... sebarkan kebenarannya..."
+Alya: (Mencoba berdiri tapi kembali jatuh) "Tinggalkan aku... bumi... sebarkan kebenarannya..."
 
 Bumi (Monolog Inner): (Waktu membeku. Pasukan merangsek masuk. Nisa mengulurkan tangannya menawarkan keselamatan palsu. Raka bersiap menjadi tameng hidup. Alya sekarat di lantai. Di tanganku ada kebenaran yang bisa menghancurkan negara, tapi harganya adalah nyawa mereka.)
 
@@ -113,11 +113,11 @@ Bumi (Monolog Inner): (Hardisk itu terlepas dari tanganku, berderak jatuh ke lan
 Alya: (Suara bergetar) "Bumi... datanya hancur... Raka gimanaa... apa yang baru saja kau lakukan? Kenapa kau membawaku dan membiarkannya mati di sana?!"
 Bumi: "Aku tidak bisa kehilangan kalian semua dalam satu malam. Kau butuh hidup untuk memimpin pergerakan ini, Al."
 
-Alya: "Memimpin apa tanpa bukti?! Tanpa data itu, kematian Raka sia-sia! Nisa menang, Bumi... pemerintah menang."
+Alya: "Memimpin apa tanpa bukti?! Tanpa data itu, kematian Raka sia-sia! Nisa menang, Bumi... pemerintah yang menang, Bumi...."
 
 [Layar perlahan memudar menjadi hitam]
 
-Bumi (Monolog Inner): (Kami selamat. Fisik Alya pulih berkat penawar itu, namun api di dalam jiwanya telah padam. Tanpa bukti algoritma, massa di jalanan perlahan kembali menjadi zombi yang patuh pada jam kerja pemerintah. Sesekali, aku melihat Nisa di siaran televisi, berbicara tentang 'harmoni' dengan seragam kementeriannya. Kami bertahan hidup di bawah tanah, mengumpulkan sisa-sisa perlawanan. Tapi di dunia ini, sekadar bernapas bukanlah sebuah kehidupan. Ini hanyalah gema dari perlawanan yang telah lama mati.)
+Bumi (Monolog Inner): (Kami selamat. Fisik Alya pulih berkat penawar itu, namun api di dalam jiwanya telah padam. Tanpa bukti algoritma itu, massa di jalanan perlahan kembali menjadi zombi yang patuh pada jam kerja pemerintah. Sesekali, aku melihat Nisa di siaran televisi, berbicara tentang 'harmoni' dengan seragam kementeriannya. Kami bertahan hidup di bawah tanah, mengumpulkan sisa-sisa perlawanan. Tapi di dunia ini, sekadar bernapas bukanlah sebuah kehidupan. Ini hanyalah gema dari perlawanan yang telah lama mati.)
 
 [SYSTEM: NORMAL ENDING - Gema yang Pudar]
 
@@ -132,12 +132,13 @@ Bumi (Monolog Inner): (Hardisk itu hancur diinjak pasukan. Suara tembakan mereng
 [Alya merosot dari bahu Bumi, jatuh ke lantai beton yang basah. Dia memuntahkan darah hitam akibat gas air mata dan racun di udara. Paru-parunya yang tidak mendapat penawar sama sekali tidak kuat menahan pelarian ini.]
 
 Bumi: (Berlutut, panik) "Alya! Bertahanlah! Kita hampir sampai di titik aman. Aku... aku masih menyimpan penawarnya
+(Bumi ingin mengambil penawar yang ia kira berada di kantung nya, rrupanya tertinggal)
 
 Alya: (Mencengkeram kerah baju Bumi dengan sisa tenaga terakhirnya, menatapnya dengan kekecewaan luar biasa) "Terlambat, Bumi... Kau... merelakan data Raka... dan kau membiarkanku mati tanpa membawa kebenaran apa pun..."
 
 Bumi: "Tidak, Al, kumohon, jangan tutup matamu"
 
-Alya: (Napasnya terputus, matanya kehilangan cahaya) "...Sia-sia..."
+Alya: (Napasnya terputus, matanya kehilangan cahaya) "...Kauu..., ini semua sia-sia..."
 
 [Alya menjadi abu-abu/gelap. Tangannya jatuh ke lantai.]
 
@@ -173,7 +174,7 @@ Bumi: "Tugas kita selesai, Al, Raka."
 
 [Layar memudar menjadi hitam]
 
-Bumi (Monolog Inner): (Revolusi menang. Sistem Harmonisasi dihancurkan keesokan harinya. Namun, tidak ada Faksi Resonansi yang tersisa untuk melihat fajar baru tersebut. Kami semua menjadi martir untuk dunia yang tidak akan pernah kami tinggali.)
+Bumi (Monolog Inner): (Revolusi menang. Sistem Harmonisasi dihancurkan keesokan harinya. Namun, tidak ada orang Kelompok Resonansi kami yang tersisa untuk melihat fajar baru tersebut. Kami semua menjadi martir untuk dunia yang tidak akan pernah kami tinggali.)
 
 [SYSTEM: TRAGIC ENDING - Martir Terakhir]
 
@@ -200,7 +201,7 @@ Bumi: "Raka, Alya, SEKARANG!"
 
 [Latar berubah menjadi ruang kontrol siaran nasional, beberapa jam kemudian]
 
-Raka: (Mengetik dengan cepat sambil tertawa sinis) "Hah! Militer bodoh itu pasti masih sibuk menginterogasi Nisa di markas kosong!" 
+Raka: (Mengetik dengan cepat sambil tertawa sinis) "Hah! Militer tu kocak banget dah itu pasti masih sibuk menginterogasi Nisa di markas kosong!" 
 
 Alya: (Bernapas lebih baik setelah Bumi memasangkan masker oksigen cadangan) "Kau... kau sudah merencanakan ini, Bum?" 
 
@@ -221,7 +222,7 @@ Bumi (Monolog Inner): (Aku melihat ke arah Alya yang batuk darah, lalu ke arah R
 
 [Bumi berjalan melewati Alya. Langkahnya pelan, tidak terburu-buru. Ia mengambil hardisk dari tangan Raka.]
 
-Raka: "Bumi...? Apa yang kau lakukan? Bawa itu lari!"
+Raka: "Bumi...? Apa yang lu lakukan WOIIII?, LU KHIANATIN KITA?? CEPAT Bawa itu lari!"
 
 Alya: (Mencoba meraih kaki Bumi) "Bumi... kumohon..."
 
@@ -238,7 +239,7 @@ Nisa: (Masuk ke ruangan, mengenakan lencana menteri) "Bumi, kuota Seleksi Telada
 
 Bumi: (Menatap dingin ke luar jendela, meminum air bersihnya) "Lakukan. Algoritma tidak pernah bohong demi kesejahteraan mayoritas."
 
-Bumi (Monolog Inner): (Kami hidup. Negara stabil. Harmoni tercapai. Tapi setiap malam, saat aku menutup mata, yang kudengar hanyalah suara batuk Alya dan makian Raka yang menggema di kepalaku. Aku menyelamatkan umat manusia... dengan kehilangan kemanusiaanku sendiri.)
+Bumi (Monolog Inner): (Kami hidup. Negara stabil. Harmoni tercapai, setidaknya itu yang dikatakan pemerintahan ini kepada kami yang bekerja untuknya. Tapi setiap malam, saat aku menutup mata, yang kudengar hanyalah suara batuk Alya dan makian Raka yang menggema di kepalaku. Aku menyelamatkan umat manusia... dengan kehilangan kemanusiaanku sendiri.)
 
 [SYSTEM: SECRET ENDING - Rasionalitas Dingin]
 
@@ -252,7 +253,7 @@ Bumi (Monolog Inner): (Layar-layar raksasa di seluruh penjuru kota kini menampil
 
 Alya: (Berjalan ke arah mikrofon siaran pusat. Langkahnya tegap, matanya tajam, dan napasnya sangat jernih tanpa batuk sedikit pun berkat penawar tersebut) "Buka jalur audionya, Raka. Biar aku yang bicara pada mereka."
 
-Raka: (Tersenyum lelah, tangannya masih sedikit gemetar) "Panggung milikmu, Sang Orator."
+Raka: (Tersenyum lelah, tangannya masih sedikit gemetar) "Panggung milik lu nih, Sang Orator terbaik bangsa ini( dgn nada mengejek)."
 
 Alya: (Berbicara ke seluruh negeri) "Saudara-saudaraku! Kalian telah melihat kebenarannya! Tapi dengarkan aku—jangan biarkan amarah membakar kota kita! Jika kalian menghancurkan fasilitas pemerintah, kita akan kehilangan mesin pembuat penawar! Bergeraklah dengan tertib! Ambil alih, jangan hancurkan!"
 
@@ -260,11 +261,11 @@ Bumi (Monolog Inner): (Karena Alya dalam kondisi fisik prima, suaranya menggeleg
 
 [JIKA DI BABAK 1 MEMILIH: MENYUNTIKKAN PENAWAR KE RAKA]
 
-Raka: (Mengetik dengan kecepatan luar biasa di panel kontrol pusat. Tangannya tidak gemetar sama sekali berkat penawar tersebut. Matanya berbinar jenius) "Hahaha! Bumi, kau tahu kenapa aku butuh fokus penuh tadi?! Aku tidak hanya mengunduh data korupsi mereka!"
+Raka: (Mengetik dengan kecepatan luar biasa di panel kontrol pusat. Tangannya tidak gemetar sama sekali berkat penawar tersebut. Matanya berbinar jenius) "Hahaha! Bumi, lu tahu gak kenapa aku butuh fokus penuh tadi?! gua gak hanya hack data korupsi mereka cuy!"
 
 Alya: (Duduk bersandar di dinding, masih terbatuk lemah namun tersenyum lega) "Lalu apa yang kau retas, dasar gila?"
 
-Raka: "Aku meretas kode sumber dari mesin pembuat penawar itu sendiri! Cetak biru molekularnya! Selama ini mereka mengunci rumusnya agar kita bergantung pada pabrik kementerian. Sekarang? Aku baru saja menyebarkan rumus pembuatan penawar ini ke semua server universitas dan rumah sakit rakyat! Kita bisa meraciknya sendiri!"
+Raka: "gua hack juga source code dari mesin pembuat penawar itu lek! gua cetak biru molekularnya! Selama ini tuh orang mengunci rumusnya agar kita bergantung pada pabrik kementerian. Sekarang? gua dah  menyebarkan rumus pembuatan penawar ini ke semua server universitas dan rumah sakit rakyat! Kita bisa meraciknya sendiri!. Iya gua tau gua jago banget emang, dan gak ada yang lebih jago dari gua, thank you guys"
 
 Bumi (Monolog Inner): (Keputusanku memberikan penawar pada Raka membuahkan hasil yang tak ternilai. Dengan otak jeniusnya yang bekerja 100%, ia tidak hanya menghancurkan monopoli pemerintah, tapi memberikan kami kunci untuk memproduksi napas kami sendiri. Monopoli oksigen telah resmi berakhir.)
 
