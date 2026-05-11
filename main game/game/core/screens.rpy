@@ -132,19 +132,23 @@ style namebox_label is say_label
 style window:
     xalign 0.5
     xfill True
-    yalign gui.textbox_yalign
-    ysize gui.textbox_height
+    yalign 1.0
+    ysize 150
+    left_padding 50
+    right_padding 50
+    top_padding 3      # Perkecil angka ini agar teks naik ke atas
+    bottom_padding 100
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    background Image("assets/ui/textbox.png", xalign=0.5, yalign=0.5, alpha=0.0)
 
 style namebox:
-    xpos gui.name_xpos
+    xpos 250
     xanchor gui.name_xalign
     xsize gui.namebox_width
-    ypos gui.name_ypos
+    ypos -145
     ysize gui.namebox_height
 
-    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
+    background Frame("assets/ui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
     padding gui.namebox_borders.padding
 
 style say_label:

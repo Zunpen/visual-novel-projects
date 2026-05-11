@@ -8,3 +8,9 @@ scene bg basement
 with fade_scene
 """
 
+default antidote_used_on = None
+default has_evidence = False
+default nisa_trust = 0
+
+default chapter = 1
+default ending = None
