@@ -3,18 +3,31 @@ label story_ch1_intro:
     # =========================
     # SCENE SETUP
     # =========================
-    scene bg basement
+    scene bg placeholder
     with fade
 
     play music audio.bgm_main fadein 1.0
 
     # MONOLOG BUMI (SLOW)
+    bm "Pemerintah kita telah menghancurkan negara kita sendiri... "
+    bm "HAM yang dulu mereka perjuangkan itu, kini telah mereka lupakan.."
+    bm "Seleksi Teladan... mengharuskan kami untuk diseleksi agar dapat bekerja untuk pemerintah demi menjaga Indonesia tetap berjalan"
+    bm "Tetapi, Upah kami hanya 1 botol oksigen per minggu yang bahkan hanya cukup 1 hari."
+
+    scene bg basement:
+        matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.9)
+        zoom 1.2
+    show light_glow_mask at flicker_light zorder 100:
+        xpos -0.01
+        zoom 1.2
+    with fade
     bm "Dunia ini sedang membusuk."
     bm "Udara di luar lebih pantas disebut racun."
     bm "Di atas meja ini... hanya tersisa satu tabung penawar."
 
     # ALYA MASUK (FAST)
-    show alya sick at left
+    show alya sick at chara_left:
+        matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
     with moveinleft
 
     a "Bumi... protes di Sektor 4 tadi..."
@@ -22,24 +35,27 @@ label story_ch1_intro:
     a "Warga... mereka butuh suplai kita..."
 
     # RAKA MASUK (FAST)
-    show raka normal at right
+    show raka idle at right, chara_right:
+        matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
     with moveinright
 
     r "Jangan gila, Al!"
     r "Kalau kau berikan tabung terakhir itu ke luar, kau yang mati malam ini!"
     r "Filter udara ruangan kita mau jebol!"
-    r "Aku butuh fokus untuk meretas sistem ventilasi pusat!"
+    r "Aku butuh fokus untuk meretas sistem ventilasi pusat, tapi tanganku tidak bisa berhenti gemetar karena racun ini."
 
 
     # NISA MASUK (SLOW)
-    show nisa normal at center
+    show nisa idle at center, chara_middle:
+        matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
     with fade
 
     n "Secara statistik, Alya, tindakanmu hari ini adalah bunuh diri."
     n "Bumi, tabung penawar itu harapan terakhir kita."
     n "Berikan pada Raka."
+    n "Jika kita mati tercekik di rubanah ini, revolusi yang diteriakkan Alya tidak akan pernah terjadi."
     a "Nyawa manusia bukan sekadar aset, Nisa!"
-    a "Jika kita membiarkan mereka mati, kita tidak ada bedanya dengan pemerintah itu!"
+    a "Jika kita membiarkan mereka mati malam ini, apa bedanya kita dengan pemerintah saat ini?"
 
     # MONOLOG BUMI (NORMAL)
     bm "Alya menatapku dengan mata memohon..."
@@ -79,15 +95,13 @@ label ch1_result_alya:
 
 label ch1_result_raka:
 
-    bm "Selesaikan retasanmu, Raka."
-    r "Pilihan yang logis."
+    bm "Selesaikan retasanmu, Raka. Kita butuh jalan keluar"
     return
 
 
 label ch1_result_none:
 
     bm "Belum saatnya digunakan."
-    n "Keputusan yang... menarik."
     return
 
 label chapter1:

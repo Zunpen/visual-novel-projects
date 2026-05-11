@@ -3,7 +3,7 @@ label story_ch2_scene1:
     scene bg corridor
     with fade
 
-    play music audio.bgm_main fadein 1.0
+    # play music audio.placeholder fadein 1.0 (Suara drone patroli terdengar samar dari kejauhan. Musik berubah menjadi misterius/tegang)
 
     # MONOLOG (SLOW → NORMAL)
     bm "Semenjak insiden virus itu 2 tahun lalu..."
@@ -11,14 +11,11 @@ label story_ch2_scene1:
     bm "Pemerintah dunia mengisolasi Indonesia..."
 
     bm "Bahkan wilayah perbatasan dikosongkan sejauh 30 km."
-    bm "Siapa pun yang mencoba keluar... dieksekusi."
-
-    bm "Virus ini menyebar lewat udara..."
-    bm "Dan kini... pemerintah menggunakan itu untuk mengontrol kami."
-
-    bm "Kami ingin menjadi harapan bangsa ini."
-    bm "Pejuang keadilan..."
-
+    bm "Info yang kami dapatkan bahwa menurut penelitian virus ini dapat bertahan dan menyebar lewat udara, bahkan menempuh jarak 25 km dari saat keluar dari tubuh manusia…"
+    bm "Pemerintah yang tugasnya mempersatukan kita, malah memecah belah kita, mereka menggunakan segala cara untuk bertahan… bahkan dengan menginjak injak kami yang dibawah…"
+    bm "Sialan."
+    bm "Kalau begini, apakah hak kami sebagai manusia hanya gurauan belaka?"
+    bm "Lihat saja, kami akan memperjuangkan apa yang menjadi hak kami dari pemerintah yang sudah tidak mengenal ideologinya sendiri."
     return
 
 label story_ch2_scene2:
@@ -31,17 +28,22 @@ label story_ch2_scene2:
     show nisa normal at center
 
     # SETUP SITUASI
-    bm "Nisa meminta izin untuk memantau frekuensi radio keamanan."
-    bm "Tapi... dia berdiri terlalu dekat dengan lorong keluar."
+    "(Nisa meminta izin untuk memantau frekuensi radio keamanan.)"
+    "(Sebagai ahli hukum yang sangat taat prosedur, seharusnya dia menghindari area dekat pintu keluar karena risiko patroli.)"
 
-    bm "Aku mengikutinya dari bayang-bayang."
+    bm "Firasatku tidak enak."
+    "(Perlahan, aku melangkah mendekatinya.)"
+    "(Apa itu?)"
+    "Itu tidak terlihat seperti radio kelompok"
 
     n "...Ya. Titik koordinatnya di blok C."
     n "Pastikan unit ekstraksi hanya menargetkan ruang utama."
-    n "Jangan sentuh lorong barat..."
+    n "Jangan sentuh lorong barat..., Aku akan memastikan datanya tertahan."
 
     bm "Unit ekstraksi?"
     bm "Koordinat?"
+    "(Nisa baru saja memutuskan jalur komunikasi.)"
+    "(Dia memasukkan alat itu ke dalam tas hitamnya yang diletakkan di atas tong kosong, lalu berjalan sebentar ke ujung lorong untuk mengecek jendela.x)"
 
     bm "Nisa... apa yang kau lakukan?"
 
