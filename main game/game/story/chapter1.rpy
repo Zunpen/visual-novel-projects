@@ -6,7 +6,7 @@ label story_ch1_intro:
     scene bg placeholder
     with fade
 
-    play music audio.bgm_main fadein 1.0
+    play music "assets/audio/bgm/SFX_BGM_Calm.wav" fadein 1.0
 
     # MONOLOG BUMI (SLOW)
     bm "Pemerintah kita telah menghancurkan negara kita sendiri... "
@@ -26,6 +26,7 @@ label story_ch1_intro:
     bm "Di atas meja ini... hanya tersisa satu tabung penawar."
 
     # ALYA MASUK (FAST)
+    play music "assets/audio/bgm/SFX_BGM_Calm.wav" fadeout 0.5 fadein 0.8
     show alya sick at chara_left:
         matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
     with moveinleft
@@ -35,6 +36,7 @@ label story_ch1_intro:
     a "Warga... mereka butuh suplai kita..."
 
     # RAKA MASUK (FAST)
+    play music "assets/audio/bgm/SFX_BGM_Action.wav" fadeout 0.5 fadein 0.8
     show raka idle at right, chara_right:
         matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
     with moveinright
@@ -46,6 +48,7 @@ label story_ch1_intro:
 
 
     # NISA MASUK (SLOW)
+    play music "assets/audio/bgm/SFX_BGM_Tension.wav" fadeout 0.5 fadein 0.8
     show nisa idle at center, chara_middle:
         matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
     with fade
@@ -69,7 +72,7 @@ label story_ch1_intro:
 label story_ch1_choice:
 
     # SYSTEM PROMPT
-    play music audio.bgm_tense fadein 0.5
+    play music "assets/audio/bgm/SFX_BGM_Tension.wav" fadein 0.5
 
     "WAKTU MENIPIS. SIAPA YANG KAU SELAMATKAN?"
 
