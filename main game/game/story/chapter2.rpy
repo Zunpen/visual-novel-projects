@@ -1,9 +1,9 @@
 label story_ch2_scene1:
 
-    scene bg corridor
+    scene expression "assets/bg/hall.jpeg"
     with fade
 
-    # play music audio.placeholder fadein 1.0 (Suara drone patroli terdengar samar dari kejauhan. Musik berubah menjadi misterius/tegang)
+    play music "assets/audio/bgm/SFX_BGM_Calm.wav" fadein 1.0
 
     # MONOLOG (SLOW → NORMAL)
     bm "Semenjak insiden virus itu 2 tahun lalu..."
@@ -20,12 +20,12 @@ label story_ch2_scene1:
 
 label story_ch2_scene2:
 
-    scene bg corridor
+    scene expression "assets/bg/hall.jpeg"
     with fade
 
-    play music audio.bgm_tense fadein 1.0
+    play music "assets/audio/bgm/SFX_BGM_Tension.wav" fadeout 0.5 fadein 1.0
 
-    show nisa normal at center
+    show nisa idle at center
 
     # SETUP SITUASI
     "(Nisa meminta izin untuk memantau frekuensi radio keamanan.)"
@@ -91,7 +91,7 @@ label ch2_warn_raka:
 
 label ch2_confront:
 
-    show nisa normal at center
+    show nisa idle at center
 
     bm "Siapa yang kau telepon tadi, Nis?"
 
