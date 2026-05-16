@@ -133,6 +133,19 @@ style window:
     xalign 0.5
     xfill True
     yalign 1.0
+<<<<<<< HEAD
+    ysize 160
+
+
+    background Transform("assets/ui/textbox_dark.png", xalign=0.5, yalign=0.9, alpha=0.8)
+
+style namebox:
+    xpos 250
+    xanchor -40
+    xsize 350
+    ypos -135
+    ysize 65
+=======
     ysize 150
     left_padding 50
     right_padding 50
@@ -147,14 +160,20 @@ style namebox:
     xsize gui.namebox_width
     ypos -145
     ysize gui.namebox_height
+>>>>>>> 9cb7361821f62c8560ade3094d67531a5ef54315
 
     background Frame("assets/ui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
     padding gui.namebox_borders.padding
 
 style say_label:
     properties gui.text_properties("name", accent=True)
+<<<<<<< HEAD
+    xalign 0.1
+    yalign 0.8
+=======
     xalign gui.name_xalign
     yalign 0.5
+>>>>>>> 9cb7361821f62c8560ade3094d67531a5ef54315
 
 style say_dialogue:
     properties gui.text_properties("dialogue")
@@ -228,7 +247,19 @@ style choice_vbox:
     spacing gui.choice_spacing
 
 style choice_button is default:
+<<<<<<< HEAD
+# Gambar saat tombol diam
+    idle_background Frame("assets/ui/choice_idle.png", 10, 10)
+    # Gambar saat tombol disentuh mouse
+    hover_background Frame("assets/ui/choice_hover.png", 10, 10)
+    
+    # Ukuran tombol
+    xsize 700 
+    ysize None # Otomatis mengikuti teks
+    padding (20, 10)
+=======
     properties gui.button_properties("choice_button")
+>>>>>>> 9cb7361821f62c8560ade3094d67531a5ef54315
 
 style choice_button_text is default:
     properties gui.text_properties("choice_button")
@@ -359,6 +390,42 @@ screen main_menu():
     ## This ensures that any other menu screen is replaced.
     tag menu
 
+<<<<<<< HEAD
+    add "assets/ui/BackgroundMainMenu.png"
+    ## This empty frame darkens the main menu.
+
+    ## The use statement includes another screen inside this one. The actual
+    ## contents of the main menu are in the navigation screen.
+    #use navigation
+
+    vbox:
+        # PENGATURAN POSISI (Silakan utak-atik angkanya sesuai desainmu)
+        xalign 0.095       # 0.5 berarti persis di tengah layar secara horizontal
+        yalign 0.4       # Semakin mendekati 1.0, posisinya semakin ke bawah
+        spacing 15        # Jarak vertikal antar tombol (dalam pixel)
+
+        # Tombol START
+        imagebutton:
+            idle Transform("assets/ui/start.png", zoom=0.7)
+            hover Transform("assets/ui/start.png", zoom=0.75)
+            action Start()
+            #hover_sound "audio/sfx/hover.mp3"
+            #activate_sound "audio/sfx/select.mp3"
+
+        # Tombol LOAD
+        imagebutton:
+            idle Transform("assets/ui/load.png", zoom=0.7)
+            hover Transform("assets/ui/load.png", zoom=0.75)
+            action ShowMenu("load")
+
+
+        # Tombol QUIT
+        imagebutton:
+            idle Transform("assets/ui/quit.png", zoom=0.7)
+            hover Transform("assets/ui/quit.png", zoom=0.75)
+            action Quit(confirm=not main_menu)
+
+=======
     add gui.main_menu_background
 
     ## This empty frame darkens the main menu.
@@ -379,6 +446,7 @@ screen main_menu():
 
             text "[config.version]":
                 style "main_menu_version"
+>>>>>>> 9cb7361821f62c8560ade3094d67531a5ef54315
 
 
 style main_menu_frame is empty
@@ -1623,3 +1691,22 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+<<<<<<< HEAD
+
+screen timed_choice(items, timeout, timeout_label):
+    # Timer yang akan melakukan Jump otomatis saat waktu habis
+    timer timeout action Jump(timeout_label)
+
+    # Menampilkan menu pilihan
+    vbox:
+        xalign 0.5
+        yalign 0.5
+        spacing 20
+
+        for caption, action in items:
+            textbutton caption:
+                action action
+                style "choice_button"
+                xfill True
+=======
+>>>>>>> 9cb7361821f62c8560ade3094d67531a5ef54315
