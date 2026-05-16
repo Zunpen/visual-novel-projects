@@ -36,14 +36,8 @@ label start:
     #Pembagian chapter
     call chapter1
     call chapter2
-<<<<<<< HEAD
     if best_route == 0:
         call chapter3
         return
     else:
         return
-=======
-    call chapter3
-
-    return
->>>>>>> 9cb7361821f62c8560ade3094d67531a5ef54315
