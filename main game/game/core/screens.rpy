@@ -133,19 +133,19 @@ style window:
     xalign 0.5
     xfill True
     yalign 1.0
-    ysize 150
-    left_padding 50
-    right_padding 50
-    top_padding 3      # Perkecil angka ini agar teks naik ke atas
-    bottom_padding 100
+    ysize gui.textbox_height
+    left_padding 0
+    right_padding 0
+    top_padding 0
+    bottom_padding 0
 
-    background Image("assets/ui/textbox.png", xalign=0.5, yalign=0.5, alpha=0.0)
+    background Transform("assets/ui/DIalogTextBox_DarkVersion.png", xalign=0.5, yalign=1.0)
 
 style namebox:
-    xpos 250
+    xpos 360
     xanchor gui.name_xalign
     xsize gui.namebox_width
-    ypos -145
+    ypos -42
     ysize gui.namebox_height
 
     background Frame("assets/ui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
@@ -222,13 +222,16 @@ style choice_button_text is button_text
 
 style choice_vbox:
     xalign 0.5
-    ypos 405
+    ypos 430
     yanchor 0.5
 
     spacing gui.choice_spacing
 
 style choice_button is default:
     properties gui.button_properties("choice_button")
+    background Frame("assets/ui/OptionDialog_New.png", 28, 18, 28, 18)
+    hover_background Frame("assets/ui/ChosenDialog_New.png", 28, 18, 28, 18)
+    selected_background Frame("assets/ui/ChosenDialog_New.png", 28, 18, 28, 18)
 
 style choice_button_text is default:
     properties gui.text_properties("choice_button")
@@ -293,48 +296,94 @@ style quick_button_text:
 
 screen navigation():
 
-    vbox:
-        style_prefix "navigation"
+    if main_menu and CurrentScreenName() == "main_menu":
 
-        xpos gui.navigation_xpos
-        yalign 0.5
+        fixed:
 
-        spacing gui.navigation_spacing
+            vbox:
+                xpos 105
+                yalign 0.55
+                spacing 18
 
-        if main_menu:
+                imagebutton:
+                    idle "assets/ui/start.png"
+                    hover "assets/ui/BTN__Start.png"
+                    focus_mask True
+                    action Start()
 
-            textbutton _("Start") action Start()
+                imagebutton:
+                    idle "assets/ui/load.png"
+                    hover "assets/ui/BTN_LoadGame.png"
+                    focus_mask True
+                    action ShowMenu("load")
 
-        else:
+                imagebutton:
+                    idle "assets/ui/quit.png"
+                    hover "assets/ui/quit.png"
+                    focus_mask True
+                    action Quit(confirm=True)
 
-            textbutton _("History") action ShowMenu("history")
+            hbox:
+                xpos 122
+                ypos 790
+                spacing 22
 
-            textbutton _("Save") action ShowMenu("save")
+                imagebutton:
+                    idle Transform("assets/ui/SettingsSmall.png", xysize=(72, 72))
+                    hover Transform("assets/ui/SettingsSmall.png", xysize=(72, 72), alpha=0.8)
+                    focus_mask True
+                    action ShowMenu("preferences")
 
-        textbutton _("Load") action ShowMenu("load")
+                imagebutton:
+                    idle Transform("assets/ui/InfoSmall.png", xysize=(20, 75))
+                    hover Transform("assets/ui/InfoSmall.png", xysize=(20, 75), alpha=0.8)
+                    focus_mask True
+                    action ShowMenu("about")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+    else:
 
-        if _in_replay:
+        vbox:
+            style_prefix "navigation"
 
-            textbutton _("End Replay") action EndReplay(confirm=True)
+            xpos gui.navigation_xpos
+            yalign 0.5
 
-        elif not main_menu:
+            spacing gui.navigation_spacing
 
-            textbutton _("Main Menu") action MainMenu()
+            if main_menu:
 
-        textbutton _("About") action ShowMenu("about")
+                textbutton _("Start") action Start()
 
-        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+            else:
 
-            ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action ShowMenu("help")
+                textbutton _("History") action ShowMenu("history")
 
-        if renpy.variant("pc"):
+                textbutton _("Save") action ShowMenu("save")
 
-            ## The quit button is banned on iOS and unnecessary on Android and
-            ## Web.
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+            textbutton _("Load") action ShowMenu("load")
+
+            textbutton _("Preferences") action ShowMenu("preferences")
+
+            if _in_replay:
+
+                textbutton _("End Replay") action EndReplay(confirm=True)
+
+            elif not main_menu:
+
+                textbutton _("Main Menu") action MainMenu()
+
+            textbutton _("About") action ShowMenu("about")
+
+            if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+
+                ## Help isn't necessary or relevant to mobile devices.
+                textbutton _("Help") action ShowMenu("help")
+
+            if renpy.variant("pc"):
+
+                ## The quit button is banned on iOS and unnecessary on Android and
+                ## Web.
+                textbutton _("Quit") action Quit(confirm=True)
 
 
 style navigation_button is gui_button
@@ -388,10 +437,7 @@ style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
 
 style main_menu_frame:
-    xsize 420
-    yfill True
-
-    background "gui/overlay/main_menu.png"
+    background None
 
 style main_menu_vbox:
     xalign 1.0
