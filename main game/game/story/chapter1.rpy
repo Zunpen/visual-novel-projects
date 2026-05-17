@@ -149,7 +149,7 @@ label ch1_result_none:
 
 label chapter1:
 
-    call story_ch1_intro
-    call story_ch1_choice
+    call story_ch1_intro from _call_story_ch1_intro
+    call story_ch1_choice from _call_story_ch1_choice
 
     return

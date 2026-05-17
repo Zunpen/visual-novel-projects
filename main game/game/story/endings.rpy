@@ -322,6 +322,7 @@ label best_ending:
 
     if antidote_used_on == "alya":
 
+        play sound protest fadein 2.0
         show alya idle at center, nisa
         a "Buka jalur audionya, Raka. Biar aku yang bicara pada mereka."
         show raka idle at raka:
@@ -339,6 +340,7 @@ label best_ending:
         "Karena Alya dalam kondisi fisik prima, suaranya menggelegar penuh karisma, menghentikan massa dari anarki berdarah."
         "Revolusi terjadi secara damai dan terstruktur."
         "Ia bukan lagi sekadar martir yang sakit-sakitan, melainkan pemimpin sah dari dunia yang baru ini."
+        stop sound fadeout 1.0
 
     elif antidote_used_on == "raka":
 

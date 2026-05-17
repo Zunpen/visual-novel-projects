@@ -364,7 +364,10 @@ screen main_menu():
     ## This ensures that any other menu screen is replaced.
     tag menu
 
-    add "assets/ui/BackgroundMainMenu.png"
+    add "assets/ui/menunoglow.png"
+    add "assets/ui/lightmaskmenu.png" at flicker, littlezoom:
+        matrixcolor BrightnessMatrix(-0.05) * ContrastMatrix(1.2)
+
     ## This empty frame darkens the main menu.
 
     ## The use statement includes another screen inside this one. The actual
@@ -390,6 +393,12 @@ screen main_menu():
             idle Transform("assets/ui/load.png", zoom=0.7)
             hover Transform("assets/ui/load.png", zoom=0.75)
             action ShowMenu("load")
+
+        # Tombol PREFERENCES
+        imagebutton:
+            idle Transform("assets/ui/settings.png", zoom=0.7)
+            hover Transform("assets/ui/settings.png", zoom=0.75)
+            action ShowMenu("preferences")
 
 
         # Tombol QUIT

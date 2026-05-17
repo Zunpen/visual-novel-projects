@@ -142,9 +142,9 @@ label ch3_join_nisa:
 
 label chapter3:
 
-    call story_ch3_scene1
-    call story_ch3_scene2
-    call story_ch3_scene3
-    call story_ch3_choice
+    call story_ch3_scene1 from _call_story_ch3_scene1
+    call story_ch3_scene2 from _call_story_ch3_scene2
+    call story_ch3_scene3 from _call_story_ch3_scene3
+    call story_ch3_choice from _call_story_ch3_choice
 
     return

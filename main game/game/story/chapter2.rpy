@@ -179,7 +179,7 @@ label ch2_confront:
 
 label chapter2:
 
-    call story_ch2_scene1
-    call story_ch2_scene2
+    call story_ch2_scene1 from _call_story_ch2_scene1
+    call story_ch2_scene2 from _call_story_ch2_scene2
 
     return

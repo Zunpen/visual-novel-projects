@@ -93,6 +93,14 @@ transform flashing:
         # Kembali ke atas block (mengulang dari Brightness -0.7)
         repeat
 
+transform littlezoom:
+    xpos -0.0005
+    xalign 0.1
+    zoom 1.0
+    linear 5.0 zoom 1.01
+    pause 5.0
+    linear 5.0 zoom 1.0
+    repeat
 define blink = Fade(0.1, 0.1, 0.4, color="#000000") 
 
 define heavy_blink = Fade(0.5, 0.3, 0.8, color="#000000")
