@@ -18,18 +18,18 @@ define audio.sfx_clothes_rustle = "assets/audio/clothes_rustle.mp3"
 image light_overlay = Solid("#fff3c040")
 
 ## Define bg
-image bg placeholder = "assets/bg/basement.png"
-image bg basement = "assets/bg/basement.png"
-image bg broadcast = "assets/bg/broadcast.png"
-image bg corridor = "assets/bg/hall.png"
-image bg hall = "assets/bg/hall.png"
-image bg office = "assets/bg/office_best_ending.png"
-image bg office_bad = "assets/bg/office_bad_ending.png"
-image bg office_best = "assets/bg/office_best_ending.png"
-image bg sewer = "assets/bg/tunnel.png"
-image bg tunnel = "assets/bg/tunnel.png"
-image bg server = "assets/bg/server.png"
-image light_glow_mask = "assets/bg/light_source.png"
+image bg placeholder = Transform("assets/bg/basement.png", xysize=(1920, 1080))
+image bg basement = Transform("assets/bg/basement.png", xysize=(1920, 1080))
+image bg broadcast = Transform("assets/bg/broadcast.png", xysize=(1920, 1080))
+image bg corridor = Transform("assets/bg/hall.png", xysize=(1920, 1080))
+image bg hall = Transform("assets/bg/hall.png", xysize=(1920, 1080))
+image bg office = Transform("assets/bg/office_best_ending.png", xysize=(1920, 1080))
+image bg office_bad = Transform("assets/bg/office_bad_ending.png", xysize=(1920, 1080))
+image bg office_best = Transform("assets/bg/office_best_ending.png", xysize=(1920, 1080))
+image bg sewer = Transform("assets/bg/tunnel.png", xysize=(1920, 1080))
+image bg tunnel = Transform("assets/bg/tunnel.png", xysize=(1920, 1080))
+image bg server = Transform("assets/bg/server.png", xysize=(1920, 1080))
+image light_glow_mask = Transform("assets/bg/light_source.png", xysize=(1920, 1080))
 
 ## Define character
 image alya sick = "assets/chara/alya/alya_sick.png"
@@ -63,5 +63,5 @@ image item syringe = "assets/ui/Suntikan_600.png"
 image item syringe_large = "assets/ui/Suntikan_850.png"
 
 ## Unused
-image bg basement_dark = "assets/bg/basement_dark.png"
-image bg basement_bright = "assets/bg/basement.png"
+image bg basement_dark = Transform("assets/bg/basement_dark.png", xysize=(1920, 1080))
+image bg basement_bright = Transform("assets/bg/basement.png", xysize=(1920, 1080))
