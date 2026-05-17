@@ -1,11 +1,18 @@
 label story_ch2_scene1:
 
-    scene expression "assets/bg/hall.jpeg"
+    scene bg hall
     with fade
 
     play music "assets/audio/bgm/SFX_BGM_Calm.wav" fadein 1.0
 
     # MONOLOG (SLOW → NORMAL)
+    show expression "assets/chara/bumi/bumi_netral.png" as bumi:
+        xalign 0.5
+        yalign 1.0
+        zoom 1.75
+        matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
+    with fade
+
     bm "Semenjak insiden virus itu 2 tahun lalu..."
     bm "Kami bahkan tidak tahu apa nama virus itu..."
     bm "Pemerintah dunia mengisolasi Indonesia..."
@@ -20,16 +27,24 @@ label story_ch2_scene1:
 
 label story_ch2_scene2:
 
-    scene expression "assets/bg/hall.jpeg"
+    scene bg hall
     with fade
 
     play music "assets/audio/bgm/SFX_BGM_Tension.wav" fadeout 0.5 fadein 1.0
 
-    show nisa idle at center
+    show nisa idle at center, chara_middle:
+        matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
 
     # SETUP SITUASI
     "(Nisa meminta izin untuk memantau frekuensi radio keamanan.)"
     "(Sebagai ahli hukum yang sangat taat prosedur, seharusnya dia menghindari area dekat pintu keluar karena risiko patroli.)"
+
+    show expression "assets/chara/bumi/bumi_serius.png" as bumi:
+        xalign 0.18
+        yalign 1.0
+        zoom 0.7
+        matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
+    with fade
 
     bm "Firasatku tidak enak."
     "(Perlahan, aku melangkah mendekatinya.)"
@@ -62,6 +77,12 @@ label story_ch2_scene2:
 
 label ch2_timeout:
 
+    show expression "assets/chara/bumi/bumi_serius.png" as bumi:
+        xalign 0.18
+        yalign 1.0
+        zoom 0.7
+        matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
+
     bm "Aku ragu terlalu lama..."
 
     jump ch2_confront
@@ -69,6 +90,12 @@ label ch2_timeout:
 label ch2_search_bag:
 
     $ has_evidence = True
+
+    show expression "assets/chara/bumi/bumi_serius.png" as bumi:
+        xalign 0.18
+        yalign 1.0
+        zoom 0.7
+        matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
 
     bm "Tanganku bergerak cepat membuka tasnya."
     bm "Di bawah dokumen hukum..."
@@ -81,6 +108,12 @@ label ch2_search_bag:
 
 label ch2_warn_raka:
 
+    show expression "assets/chara/bumi/bumi_serius.png" as bumi:
+        xalign 0.18
+        yalign 1.0
+        zoom 0.7
+        matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
+
     bm "Aku tidak punya waktu."
     bm "Aku harus kembali sekarang."
 
@@ -91,7 +124,8 @@ label ch2_warn_raka:
 
 label ch2_confront:
 
-    show nisa idle at center
+    show nisa idle at center, chara_middle:
+        matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
 
     bm "Siapa yang kau telepon tadi, Nis?"
 
