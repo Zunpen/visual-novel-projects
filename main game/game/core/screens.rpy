@@ -139,7 +139,7 @@ style window:
     top_padding 0
     bottom_padding 0
 
-    background Transform("assets/ui/DIalogTextBox_DarkVersion.png", xalign=0.5, yalign=1.0)
+    background Transform("assets/ui/textbox.png", xysize=(1489, 301), xalign=0.5, yalign=1.0)
 
 style namebox:
     xpos 360
@@ -235,6 +235,9 @@ style choice_button is default:
 
 style choice_button_text is default:
     properties gui.text_properties("choice_button")
+    outlines [ (1, "#ffffff99", 0, 0) ]
+    hover_outlines [ (1, "#00000099", 0, 0) ]
+    selected_outlines [ (1, "#00000099", 0, 0) ]
 
 
 ## Quick Menu screen ###########################################################
