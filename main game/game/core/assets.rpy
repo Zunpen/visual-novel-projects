@@ -10,10 +10,6 @@ image bg corridor = "assets/bg/hall.png"
 image alya sick = "assets/chara/alya/alya_sick.png"
 """
 
-## Define audio
-define audio.sfx_bulb = "assets/audio/bulb.mp3"
-define audio.sfx_clothes_rustle = "assets/audio/clothes_rustle.mp3"
-
 ## Define images
 image light_overlay = Solid("#fff3c040")
 
@@ -35,7 +31,9 @@ image light_glow_mask = Transform("assets/bg/light_source.png", xysize=(1920, 10
 image alya sick = "assets/chara/alya/alya_sick.png"
 image alya idle   = "assets/chara/alya/base_alya.png"
 image raka idle = "assets/chara/raka/base_raka.png"
+image raka normal = "assets/chara/raka/base_raka.png"
 image nisa idle = "assets/chara/nisa/base_nisa.png"
+image nisa normal = "assets/chara/nisa/base_nisa.png"
 
 ## Define ui
 image choice idle = "assets/ui/choice_idle.png"

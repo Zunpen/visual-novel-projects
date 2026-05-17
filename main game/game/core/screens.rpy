@@ -216,6 +216,18 @@ screen choice(items):
             textbutton i.caption action i.action
 
 
+screen timed_choice(items, time_limit, timeout_label):
+    style_prefix "choice"
+
+    timer time_limit action Jump(timeout_label)
+
+    vbox:
+        style "choice_vbox"
+
+        for i in items:
+            textbutton i[0] action i[1]
+
+
 style choice_vbox is vbox
 style choice_button is button
 style choice_button_text is button_text
