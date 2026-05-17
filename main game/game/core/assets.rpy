@@ -1,17 +1,8 @@
 ## assets.rpy - Definisi atau List assets pada game
 
-"""
-Contoh code :
-define audio.bgm_main = "audio/main_theme.mp3"
-define audio.bgm_tense = "audio/tense.mp3"
-define audio.bgm_sad = "audio/sad.mp3"
-image bg basement = "assets/bg/basement.png"
-image bg corridor = "assets/bg/hall.png"
-image alya sick = "assets/chara/alya/alya_sick.png"
-"""
-
 ## Define images
 image light_overlay = Solid("#fff3c040")
+image red_alert_overlay = Solid("#a0000028")
 
 ## Define bg
 image bg placeholder = Transform("assets/bg/basement.png", xysize=(1920, 1080))
@@ -53,7 +44,7 @@ image ui settings = "assets/ui/SettingsSmall.png"
 image ui info = "assets/ui/InfoSmall.png"
 image ui volume = "assets/ui/VolumeSmall.png"
 image ui back_to_menu = "assets/ui/BackToMenuSmall.png"
-image item access_card = "assets/ui/AccessCard_600.png"
+image item access_card = "assets/ui/AccessCard.png"
 image item access_card_large = "assets/ui/AccessCard_850.png"
 image item harddisk = "assets/ui/Harddisk_600.png"
 image item harddisk_large = "assets/ui/Harddisk_850.png"

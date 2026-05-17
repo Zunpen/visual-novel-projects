@@ -1,0 +1,33 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 39, in script call
+  File "story/chapter3.rpy", line 178, in script call
+    call story_ch3_scene1
+  File "story/chapter3.rpy", line 41, in script
+    r "Tinggal 90%!"
+ValueError: unsupported format character '!' (0x21) at index 11
+
+-- Full Traceback ------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "game/script.rpy", line 39, in script call
+  File "story/chapter3.rpy", line 178, in script call
+    call story_ch3_scene1
+  File "story/chapter3.rpy", line 41, in script
+    r "Tinggal 90%!"
+  File "renpy/ast.py", line 2925, in execute
+    Say.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "renpy/ast.py", line 991, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/exports/sayexports.py", line 118, in say
+    what = what % tag_quoting_dict
+           ~~~~~^~~~~~~~~~~~~~~~~~
+ValueError: unsupported format character '!' (0x21) at index 11
+
+Windows-11-10.0.26200-SP0 AMD64
+Ren'Py 8.5.2.26010301
+main game 1.0
+Sun May 17 08:20:26 2026

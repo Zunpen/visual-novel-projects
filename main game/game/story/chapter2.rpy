@@ -100,9 +100,19 @@ label ch2_search_bag:
 
     bm "Tanganku bergerak cepat membuka ritsleting tasnya."
     bm "Di bawah tumpukan dokumen hukum..."
+
+    show item access_card_large:
+        xalign 0.5
+        yalign 0.42
+        zoom 0.34
+    with dissolve
+
     bm "Sebuah kartu akses militer tingkat elit."
     bm "Lambang kementerian terukir di sana."
     bm "Nisa... kau menjual kami."
+
+    hide item access_card_large
+    with dissolve
 
     return
 

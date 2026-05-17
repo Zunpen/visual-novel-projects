@@ -7,3 +7,7 @@ define audio.bgm_action = "assets/audio/bgm/SFX_BGM_Action.wav"
 
 define audio.sfx_bulb = "assets/audio/bulb.mp3"
 define audio.sfx_clothes_rustle = "assets/audio/clothes_rustle.mp3"
+define audio.sfx_warning = "assets/audio/sfx/SFX_Warning.wav"
+define audio.sfx_impact = "assets/audio/sfx/SFX_Impact.wav"
+define audio.sfx_door_kick = "assets/audio/sfx/SFX_DoorKickDown.wav"
+define audio.sfx_gunshot = "assets/audio/sfx/SFX_GunShot1.wav"
