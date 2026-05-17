@@ -152,6 +152,8 @@ define config.save_directory = "maingame-1774999311"
 
 define config.window_icon = "gui/window_icon.png"
 
+define config.main_menu_music = "assets/audio/mainmenu.wav"
+
 
 ## Build configuration #########################################################
 ##

@@ -3,10 +3,10 @@ label story_ch1_intro:
     # =========================
     # SCENE SETUP
     # =========================
-    scene dark
+    scene bg apartment
     with fade
-
-    #play music audio.bgm_main fadein 1.0
+    $ renpy.music.set_volume(0.5, channel='music')
+    play music audio.bgm_pianos fadein 1.0
 
     # MONOLOG BUMI (SLOW)
     bm "Pemerintah kita telah menghancurkan negara kita sendiri... "
@@ -14,11 +14,15 @@ label story_ch1_intro:
     bm "Seleksi Teladan... mengharuskan kami untuk diseleksi agar dapat bekerja untuk pemerintah demi menjaga Indonesia tetap berjalan"
     bm "Tetapi, Upah kami hanya 1 botol oksigen per minggu yang bahkan hanya cukup 1 hari."
 
+
     scene bg basement:
         matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.9)
     show light_glow_mask at flicker_light zorder 100:
         xpos -0.01
         zoom 1.2
+    stop music
+    play music bgm_basement
+    $ renpy.music.set_volume(1.0, channel='music')
     with fade
     bm "Dunia ini sedang membusuk."
     bm "Udara di luar lebih pantas disebut racun."
@@ -37,25 +41,29 @@ label story_ch1_intro:
     # ALYA MASUK (FAST)
     show alya sick at chara_left:
         matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
-    with moveinleft
+    with moveinleft 
 
+    $ renpy.music.set_volume(0.5, channel='audio')
+    play audio girlcough
     a "Bumi... tadi ada protes di Sektor 4..."
     a "Mereka menembakkan gas saraf..."
+    $ renpy.music.set_volume(0.3, channel='sound')
+    play sound alyasick2
     a "Warga... mereka butuh suplai kita..."
 
     # RAKA MASUK (FAST)
-    show raka idle at right, chara_right:
+    show raka idle at right, raka:
         matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
     with moveinright
 
-    r "Jangan gila woiii, Al!"
+    r "Jangan gila woiii, Al!" 
     r "Kalau lu berikan tabung terakhir itu ke luar, lu yang mati lah malam ini!, gimana sih... Lagipula..."
     r "Filter udara ruangan kita mau jebol!"
     r "Gua juga butuh fokus untuk meretas sistem ventilasi pusat itu guys, tapi tangan gua tidak bisa berhenti gemetar karena racun ini."
 
 
     # NISA MASUK (SLOW)
-    show nisa idle at center, chara_middle:
+    show nisa idle at center, nisa:
         matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.8)
     with fade
 
@@ -102,6 +110,7 @@ label story_ch1_choice:
 label ch1_result_alya:
 
     bm "Aku tidak akan mengorbankan nyawa demi angka."
+    play sound alyasatisfied
     a "Terima kasih... Bumi..."
     show light_glow_mask:
         xalign 0.5

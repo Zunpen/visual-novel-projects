@@ -1,5 +1,8 @@
 label story_ch3_scene1:
 
+    stop music fadeout 0.5
+    play music bgm_tense fadein 1.0
+
     scene bg basement:
         matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.9)
     show light_glow_mask at flicker_light zorder 100:
@@ -10,7 +13,7 @@ label story_ch3_scene1:
     #play music audio.bgm_tense fadein 0.5
     
 
-
+    play sound ketik
     r "Sial! Sial! Mereka memotong jalur kita dari luar guysss, gimana iniii???!!!!, mati kita wokkk"
     r "Enkripsi lapisan ketiga udah jebol! Pasukan bersenjata ada di lobi atas, dan akan turun ke siniii, tolong tahan mereka selama mungkinnnn woiiii!"
 
@@ -30,13 +33,16 @@ label story_ch3_scene2:
         zoom 1.2
     show nisa idle at center, nisa
     with fade 
-   
+    stop sound
+    play audio doorslam
 
     n "Waktu kalian habis. Tolong menyerahlah. Prosedur penahanan akan lebih lunak jika kalian tidak melawan."
 
     a "Nisa... apa yang... kau yang membawa mereka ke sini?!"
 
     n "Aku menyelamatkan masa depan, Alya. Bumi, ikutlah denganku sekarang. Mereka memiliki perintah untuk tidak menembak kita berdua jika kau menyerahkan harddisk itu padaku."
+    play sound gasleak
+    "Sial! Apa yang harus kulakukan? Kita terkepung dan gas sudah mulai masuk!"
 
 
     return
@@ -52,7 +58,10 @@ label story_ch3_scene3:
     r "BAWA DATANYA WOIIII, BUMI!"
     hide dark
     hide harddisk
+    show gas zorder 101:
+        alpha 0.2
     with dissolve
+
     r "MENDING LU LARI LEWAT JALUR GORONG-GORONG!"
 
     a "Tinggalkan aku... bumi... sebarkan kebenarannya..."
@@ -64,6 +73,10 @@ label story_ch3_scene3:
     return
 
 label story_ch3_choice:
+    
+    show gas:
+        alpha 0.4
+    with dissolve
 
     "Keputusan final. Apa yang kau lakukan?"
 
@@ -96,6 +109,16 @@ label ch3_save_alya:
 label ch3_take_data:
 
     bm "Kebenaran lebih penting dari segalanya."
+    stop music fadeout 0.5
+    stop audio fadeout 0.5
+    stop sound fadeout 0.5
+    scene dark
+    with Dissolve(1.0)
+    play sound doorslam
+    pause 0.5
+    play sound running
+    play sound gunshot
+    pause 2.0
 
     jump tragic_ending
 

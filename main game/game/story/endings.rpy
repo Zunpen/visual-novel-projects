@@ -1,21 +1,22 @@
 label normal_ending:
+    stop music fadeout 0.5
+    play music bgm_sewer fadein 1.0
 
     scene bg sewer
     with fade
-
-    #play music audio.bgm_sad fadein 1.0
-
+    play sound sewerrun
+    play audio hdd_drop
     "Hardisk itu terlepas dari tanganku"
     "Aku tidak sempat mengambilnya kembali, mereka terlalu dekat!"
-    bm "Sial, mereka menghancurkannya!"
+    bm "Sial, mereka menghancurkannya!" 
 
+    play audio gunshot
+    stop sound fadeout 2.0
     "Raka...!"
     scene bg sewer
     show alya sick at center, nisa
     with fade
-
-
-
+    play music bgm_normalending fadein 1.0
     a "Bumi... datanya hancur..."
     a "Raka gimanaa... apa yang baru saja kau lakukan?"
     a "Kenapa kau membawaku dan membiarkannya mati di sana?!"
@@ -30,6 +31,8 @@ label normal_ending:
 
     scene dark
     with Dissolve(2.0)
+    stop music fadeout 0.5
+    play music bgm_aftermath fadein 1.0
     bm "Kami selamat..."
     "Fisik Alya pulih berkat penawar itu, namun api di dalam jiwanya telah padam."
     "Tanpa bukti algoritma itu, massa di jalanan perlahan kembali menjadi zombi yang patuh pada jam kerja pemerintah."
@@ -46,15 +49,21 @@ label normal_ending:
 
 label bad_ending:
 
+    stop music fadeout 0.5
+    play music bgm_sewer fadein 1.0
+
     scene bg sewer
     with fade
 
     #play music audio.bgm_sad fadein 1.0
 
+    play sound sewerrun
+    play audio hdd_drop
     "Hardisk itu terlepas dari tanganku"
     "Aku tidak sempat mengambilnya kembali, mereka terlalu dekat!"
     bm "Sial, mereka menghancurkannya!"
-
+    play audio gunshot
+    stop sound fadeout 2.0
     "Raka...!"
     
     scene bg sewer
@@ -99,6 +108,8 @@ label bad_ending:
 
     scene dark
     with Dissolve(2.0)
+    stop music fadeout 1.0
+    play music bgm_aftermath fadein 2.0
     "Aku adalah satu-satunya yang tersisa. "
     "Aku bersembunyi seperti tikus, sendirian, dihantui rasa bersalah yang mencabik-cabik kewarasan."
     "Pemerintah kini berkuasa mutlak tanpa ada lagi yang berani melawan."
@@ -112,25 +123,44 @@ label bad_ending:
 
 label tragic_ending:
 
+    stop music fadeout 0.5
+    play audio running
+    play music bgm_broadcast fadein 1.0
     scene bg broadcast
     with Fade(0.5, 2.0, 0.5)
 
     #play music audio.bgm_tense fadein 1.0
-
+    play audio broadcasterror2 fadein 2.0
     "Aku berlari tanpa henti."
     "Di kepalaku, suara pintu besi yang didobrak dan jeritan Alya terus berputar seperti kaset rusak."
     "Tanganku mencengkeram hardisk ini hingga jariku memutih. Ini harganya. Ini harga dari sebuah kebenaran."
+    stop audio fadeout 1.0
+    $ renpy.music.set_volume(0.5, channel='sound')
+    play sound broadcasterror1
     "Siaran berhasil dibajak."
     "Di seluruh penjuru negara, layar-layar menampilkan rahasia menjijikkan pemerintah."
     "Angka-angka yang membuktikan bahwa jutaan nyawa sengaja dilenyapkan."
 
-    bm "Kebenaran akhirnya tersebar."
+    bm "Kebenaran akhirnya tersebar." 
+    stop sound fadeout 1.0
 
+    play sound protest fadein 2.0
+    play sound2 doorslam loop
     "Massa mulai turun ke jalan. "
     "Kali ini bukan dengan petisi, tapi dengan kemarahan murni."
     "Revolusi akhirnya meledak."
+    stop sound2
+    play audio doorslam
 
     bm "Tugas kita selesai, Al, Raka."
+    scene dark
+    play audio gunshot
+    stop sound fadeout 1.0
+    with heavy_blink
+  
+    
+    stop music fadeout 0.5
+    play music bgm_aftermath fadein 1.0
 
     "Revolusi menang."
     "Sistem Harmonisasi dihancurkan keesokan harinya."
@@ -144,6 +174,8 @@ label tragic_ending:
 
 label true_ending:
 
+    stop music fadeout 0.5
+    play music bgm_broadcast fadein 1.0
     scene bg basement:
         matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.9)
     show light_glow_mask at flicker_light zorder 100:
@@ -153,7 +185,8 @@ label true_ending:
     with fade
 
     #play music audio.bgm_main fadein 1.0
-    
+
+
     n "Sudah berakhir, Bumi. Serahkan hardisk itu."
     bm "Heh."
     hide nisa smile
@@ -185,23 +218,31 @@ label true_ending:
     "Kesempatan!"
 
     bm "Raka, Alya, SEKARANG!"
-
+    play sound doorslam
+    play sound2 running
     scene bg broadcast
-    show raka idle at center, raka, bounce_limited
-    with fade
+    show raka idle at center, raka
+    with Fade(0.5, 2.0, 0.5)
+
+    stop music fadeout 0.5
+    play music bgm_trueending fadein 1.0
+    show raka at bounce_limited
 
 
     r "Hah! Ha ha.. Hahaha!"
     r "Militer tu kocak banget dah itu pasti masih sibuk menginterogasi Nisa di markas kosong!"
 
-    show alya idle at left, chara_left, slow_slide
+    show alya idle at left, chara_left
+    with dissolve
+    play audio alyaquestioning
     a "Kau... kau sudah merencanakan ini, Bum?"
     scene bg broadcast
     hide alya idle
     hide raka idle
-    with fade
-
     show bumi idle at center, raka
+    with heavy_blink
+
+
     bm "Hanya memperhatikan hal-hal yang tidak kalian perhatikan."
 
     scene dark
@@ -220,6 +261,8 @@ label true_ending:
 
 label secret_ending:
 
+    stop music fadeout 0.5
+    play music bgm_broadcast fadein 1.0
     scene bg basement:
         matrixcolor BrightnessMatrix(-0.15) * ContrastMatrix(0.9)
     show light_glow_mask at flicker_light zorder 100:
@@ -231,6 +274,8 @@ label secret_ending:
 
     "Aku melihat ke arah Alya yang batuk darah, lalu ke arah Raka yang terjebak di kursi rodanya."
     "Lalu, aku menatap statistik di layar monitor yang berkedip."
+    show nisa smile at center, nisa
+    with heavy_blink
     "Nisa benar."
     "Kita tidak bisa menyelamatkan semua orang."
     "Idealisme hanyalah racun manis yang membunuh perlahan."
@@ -245,6 +290,7 @@ label secret_ending:
     bm "Pastikan tidak ada data yang tersisa, Nisa."
 
     
+    play music bgm_secretending fadein 2.0
     scene bg office
     show nisa idle at center, nisa
     with fade   
@@ -263,11 +309,11 @@ label secret_ending:
     return
 
 label best_ending:
-
+    stop music fadeout 0.5
     scene bg broadcast
     with fade
 
-    #play music audio.bgm_main fadein 1.0
+    play music audio.bgm_bestending fadein 1.0
 
     "Layar-layar raksasa di seluruh penjuru kota kini menampilkan kebenaran."
     "Rezim telah runtuh dari dalam."
@@ -284,7 +330,7 @@ label best_ending:
         r "Panggung milik lu nih, Sang Orator terbaik bangsa ini."
         show raka idle at raka:
             linear 0.4 xalign -0.4
-
+        play audio walkie
         a "Saudara-saudaraku! Kalian telah melihat kebenarannya!"
         a "Tapi dengarkan aku—jangan biarkan amarah membakar kota kita!"
         a "Jika kalian menghancurkan fasilitas pemerintah, kita akan kehilangan mesin pembuat penawar!"
@@ -299,11 +345,12 @@ label best_ending:
         scene bg broadcast
         show raka idle at center, raka, bounce_limited
         with blink
-  
+        play sound ketik
         r "Hahaha! Bumi, lu tahu gak kenapa aku butuh fokus penuh tadi?! gua gak hanya hack data korupsi mereka cuy!"
         show alya sick at nisa:
             xpos -0.2
             linear 0.4 xalign -0.15
+        play sound alyaquestioning
         a "Lalu apa yang kau retas, dasar gila?"
         show alya sick at nisa:
             linear 0.4 xalign -0.4
@@ -314,10 +361,11 @@ label best_ending:
 
         "Keputusanku memberikan penawar pada Raka membuahkan hasil yang tak ternilai."
         "Dengan otak jeniusnya yang bekerja 100%%, ia tidak hanya menghancurkan monopoli pemerintah, tapi memberikan kami kunci untuk memproduksi napas kami sendiri. Monopoli oksigen telah resmi berakhir."
-    
+
     scene bg broadcast
     show bumi idle at center, raka
     with fade
+    stop sound fadeout 0.5
     "Udara di luar mungkin masih butuh waktu bertahun-tahun untuk pulih."
     "Tantangan membangun ulang negara yang hancur ini ada di depan mata."
     "Namun pagi ini, saat aku melihat teman-temanku berdiri di sampingku menatap matahari terbit..."

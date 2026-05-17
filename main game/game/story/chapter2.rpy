@@ -1,10 +1,12 @@
 label story_ch2_scene1:
 
+    stop music fadeout 2.0
     scene dark
     pause 3.0
     scene bg corridor dark with Dissolve(1.2)
     pause 2.0
     show bg corridor with Dissolve(5.0)
+    play music bgm_hallway fadein 0.5
 
     # play music audio.placeholder fadein 1.0 (Suara drone patroli terdengar samar dari kejauhan. Musik berubah menjadi misterius/tegang)
 
@@ -63,7 +65,9 @@ label story_ch2_scene2:
     with fade
 
     if antidote_used_on == None:
+        play audio hdd_drop
         bm "Sial!"
+
 
     # TIMED CHOICE (5 DETIK)
     call screen timed_choice(
@@ -89,6 +93,7 @@ label ch2_search_bag:
     $ has_evidence = True
 
     "Tanganku bergerak cepat membuka tasnya."
+    play sound unzip
     show dark zorder 101:
         alpha 0.6
     show access card at center, zorder 102:
@@ -130,6 +135,13 @@ label ch2_warn_raka:
     n "Ap..!"
     n "Bumi!"
     n "Keparat... Apa yang kau lakuk-"
+    stop music fadeout 1.0
+    scene dark
+    play audio running
+    with Dissolve(1.0)
+    play sound doorslam
+
+
     # Shortcut langsung ke ending terbaik (sesuai flowchart)
     jump best_ending
 
@@ -154,6 +166,8 @@ label ch2_confront:
     show nisa idle at jump:
         ypos -0.1
         linear 0.2 matrixcolor BrightnessMatrix(-0.2)
+
+    play sound nisasurprised
 
 
     bm "Siapa yang kau telepon tadi, Nis?"
